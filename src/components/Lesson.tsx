@@ -38,7 +38,6 @@ const Lesson: React.FC<LessonProps> = ({
 
   // Check if the current lesson is completed before showing the quiz
   const showQuiz = !completedLessons.includes(lesson.id)
-  const isCompleted = completedLessons.includes(lesson.id) // Flag for completed status
 
   const handleOptionClick = (option: string) => {
     setSelectedAnswer(option)
@@ -69,7 +68,7 @@ const Lesson: React.FC<LessonProps> = ({
   const savedScore = savedScores[lesson.id] || 0 // Get saved score or default to 0
 
   return (
-    <div className={`lesson ${isCompleted ? 'bg-lightgreen' : ''}`}>
+    <div>
       <h1 className="mb-4 text-2xl font-bold">{lesson.title}</h1>
       <div
         dangerouslySetInnerHTML={{ __html: lesson.content }}
@@ -77,7 +76,7 @@ const Lesson: React.FC<LessonProps> = ({
       />
 
       {showQuiz && (
-        <div className="quiz rounded-lg bg-gray-100 p-4 shadow-md">
+        <div className="rounded-lg bg-gray-100 p-4 shadow-md">
           {currentQuestion < lesson.quiz.length && (
             <>
               <h4 className="mb-4 text-lg font-bold">
@@ -115,7 +114,7 @@ const Lesson: React.FC<LessonProps> = ({
             </>
           )}
           {currentQuestion === lesson.quiz.length && (
-            <div className="score-container rounded-lg bg-gray-100 p-4 shadow-md">
+            <div className="rounded-lg bg-gray-100 p-4 shadow-md">
               <h2 className="text-lg font-bold">
                 You scored{' '}
                 <span className="font-bold text-green-500">{savedScore}</span>{' '}
@@ -128,7 +127,7 @@ const Lesson: React.FC<LessonProps> = ({
 
       {/* Ternary operator to display score conditionally */}
       {showQuiz ? null : (
-        <div className="score-container rounded-lg bg-gray-100 p-4 shadow-md">
+        <div className="rounded-lg bg-gray-100 p-4 shadow-md">
           <h2 className="text-lg font-bold">
             You scored{' '}
             <span className="font-bold text-green-500">{savedScore}</span> out

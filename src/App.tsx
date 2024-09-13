@@ -4,6 +4,7 @@ import Lesson from './components/Lesson'
 import Bookmark from './components/Bookmark'
 import AnimatedScrollIndicator from './components/AnimatedScrollIndicator'
 import lessonsData from './data/lessons.json'
+import Logo from './assets/logo.svg'
 
 const App: React.FC = () => {
   const [currentLessonId, setCurrentLessonId] = useState<number>(1)
@@ -80,8 +81,11 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 p-6">
-      <div className="flex justify-center">
-        <h1 className="mb-3 text-3xl font-bold">Graphic Design Course</h1>
+      <div className="mx-auto mb-6 flex justify-center">
+        <img src={Logo} alt="Course Logo" className="mr-4 size-10" />
+        <h1 className="text-3xl font-extrabold text-gray-900">
+          Graphic Design Course
+        </h1>
       </div>
 
       <AnimatedScrollIndicator />

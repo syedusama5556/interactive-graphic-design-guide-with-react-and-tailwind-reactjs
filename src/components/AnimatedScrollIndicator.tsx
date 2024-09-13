@@ -22,7 +22,7 @@ const AnimatedScrollIndicator: React.FC<ScrollIndicatorProps> = () => {
 
   return (
     <div
-      className="scroll-indicator fixed left-0 top-0 h-1 bg-blue-500"
+      className="fixed left-0 top-0 h-1 bg-blue-500"
       style={{ width: `${scrollProgress}%` }}
     />
   )

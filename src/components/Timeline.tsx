@@ -42,14 +42,14 @@ const Timeline: React.FC<TimelineProps> = ({
   }
 
   return (
-    <div className="timeline space-y-4">
+    <div className="space-y-4">
       {lessons.map((lesson, index) => (
         <motion.div
           key={lesson.id}
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.3, delay: index * 0.1 }}
-          className={`timeline-item rounded-lg p-3 shadow-md transition-all duration-200 ${
+          className={`rounded-lg p-3 shadow-md transition-all duration-200 ${
             lesson.id === currentLessonId
               ? 'border-l-4 border-blue-500 bg-blue-100'
               : 'bg-white hover:bg-gray-50'

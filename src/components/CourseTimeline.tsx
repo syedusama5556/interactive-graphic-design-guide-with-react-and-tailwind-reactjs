@@ -14,11 +14,11 @@ const CourseTimeline: React.FC<CourseTimelineProps> = ({
   completedLessons
 }) => {
   return (
-    <div className="timeline">
+    <div>
       {lessons.map((lesson, index) => (
         <div
           key={lesson.id}
-          className={`lesson-item cursor-pointer p-2 ${
+          className={` cursor-pointer p-2 ${
             currentLesson === index + 1
               ? 'bg-blue-200' // Highlight current lesson
               : completedLessons.includes(lesson.id)
@@ -27,8 +27,7 @@ const CourseTimeline: React.FC<CourseTimelineProps> = ({
           }`}
           onClick={() => onLessonSelect(Number(lesson.id))}
         >
-          <span className="lesson-index">{index + 1}. </span>{' '}
-          {/* Displaying the index */}
+          <span>{index + 1}. </span> {/* Displaying the index */}
           {lesson.title}
         </div>
       ))}
