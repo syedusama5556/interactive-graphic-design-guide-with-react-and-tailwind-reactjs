@@ -1,0 +1,542 @@
+{
+  "lessons": [
+    {
+      "id": "1",
+      "title": "Understanding the Fundamentals",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Point:</strong> Imagine a tiny dot on a piece of paper. This is a point. It's the smallest unit in graphic design.</li><li><strong>Line:</strong> Connect two points, and you have a line. Lines can be straight, curved, or dotted.</li><li><strong>Shape:</strong> A closed line creates a shape. Shapes can be simple like circles and squares, or complex like polygons.</li></ul><h2>Elements of Design: The Building Blocks</h2><ul><li><strong>Vertices:</strong> These are the points where lines meet in a shape. A triangle has three vertices.</li><li><strong>Edges:</strong> The lines that form the boundaries of a shape are called edges.</li><li><strong>Elements:</strong> These are the basic components of a design. They include points, lines, shapes, colors, textures, and typography.</li></ul><h2>Types of Lines: Adding Structure</h2><ul><li><strong>Straight Lines:</strong> These are lines that run in a single direction without curving.</li><li><strong>Curved Lines:</strong> These lines have a bend or curve.</li><li><strong>Diagonal Lines:</strong> These lines are neither horizontal nor vertical.</li><li><strong>Dotted Lines:</strong> These lines are made up of a series of dots.</li></ul><h2>Shapes: The Building Blocks of Form</h2><ul><li><strong>Geometric Shapes:</strong> These are shapes with precise, mathematical definitions, such as squares, circles, and triangles.</li><li><strong>Organic Shapes:</strong> These shapes are more irregular and resemble natural forms, like leaves or clouds.</li></ul><h2>Color: The Language of Design</h2><ul><li><strong>Color Theory:</strong> This is the study of how colors interact and affect our perception.</li><li><strong>Color Wheel:</strong> A circular arrangement of colors that shows relationships between them.</li><li><strong>Primary Colors:</strong> Red, yellow, and blue are the primary colors because all other colors can be created by mixing them.</li><li><strong>Secondary Colors:</strong> Orange, green, and purple are created by mixing two primary colors.</li></ul>",
+      "quiz": [
+        {
+          "question": "What is the smallest unit in graphic design?",
+          "options": ["Line", "Point", "Shape", "Vertex"],
+          "correctAnswer": "Point"
+        },
+        {
+          "question": "Which of these is NOT a type of line mentioned in the lesson?",
+          "options": ["Straight", "Curved", "Diagonal", "Zigzag"],
+          "correctAnswer": "Zigzag"
+        },
+        {
+          "question": "What is a closed line that creates a shape called?",
+          "options": ["Vertex", "Edge", "Shape", "Point"],
+          "correctAnswer": "Shape"
+        },
+        {
+          "question": "Which type of line has a bend or curve?",
+          "options": ["Straight", "Curved", "Diagonal", "Dotted"],
+          "correctAnswer": "Curved"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Typography: The Language of Design",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Serif Fonts:</strong> These fonts have small lines (serifs) at the ends of their strokes. They are often used for body text because they are easier to read. Examples include Times New Roman, Georgia, and Garamond.</li><li><strong>Sans-Serif Fonts:</strong> These fonts lack serifs. They are often used for headlines, titles, and branding because they are clean and modern. Examples include Helvetica, Arial, and Roboto.</li><li><strong>Script Fonts:</strong> These fonts mimic handwritten styles. They are often used for invitations, logos, and branding. Examples include Calligraphia and Pacifico.</li></ul><h2>Key Typographic Elements</h2><ul><li><strong>Font Family:</strong> A group of fonts that share a similar design.</li><li><strong>Font Weight:</strong> The thickness of a font's strokes.</li><li><strong>Font Style:</strong> The slant or italicization of a font.</li><li><strong>Leading:</strong> The vertical space between lines of text.</li><li><strong>Tracking:</strong> The horizontal space between letters.</li><li><strong>Kerning:</strong> The adjustment of space between specific pairs of letters.</li></ul><h2>Typography and Readability</h2><ul><li><strong>Legibility:</strong> How easy a font is to read.</li><li><strong>Readability:</strong> How comfortable a font is to read for extended periods.</li><li><strong>Contrast:</strong> The difference between light and dark elements in a design.</li></ul><h2>Typography and Design</h2><ul><li><strong>Hierarchy:</strong> The arrangement of elements in a design based on their importance.</li><li><strong>Alignment:</strong> The placement of elements on a page.</li><li><strong>Grids:</strong> A system of lines used to organize elements on a page.</li></ul>",
+      "quiz": [
+        {
+          "question": "Which type of font is often used for body text due to its readability?",
+          "options": ["Serif", "Sans-Serif", "Script", "Display"],
+          "correctAnswer": "Serif"
+        },
+        {
+          "question": "What is the term for the vertical space between lines of text?",
+          "options": ["Kerning", "Tracking", "Leading", "Hierarchy"],
+          "correctAnswer": "Leading"
+        },
+        {
+          "question": "What does 'tracking' refer to in typography?",
+          "options": [
+            "The space between specific pairs of letters",
+            "The thickness of a font's strokes",
+            "The horizontal space between letters",
+            "The vertical space between lines of text"
+          ],
+          "correctAnswer": "The horizontal space between letters"
+        },
+        {
+          "question": "Which typographic element determines the slant or italicization of a font?",
+          "options": ["Font Family", "Font Weight", "Font Style", "Leading"],
+          "correctAnswer": "Font Style"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Design Principles: The Rules of Composition",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Balance:</strong> Creating visual harmony by arranging elements symmetrically or asymmetrically.</li><li><strong>Symmetrical Balance:</strong> Elements are arranged equally on both sides of an axis to create a sense of order.</li><li><strong>Asymmetrical Balance:</strong> Elements are arranged unevenly, creating visual interest and dynamism.</li><li><strong>Contrast:</strong> Using different elements, such as color or size, to create emphasis.</li><li><strong>Repetition:</strong> Repeating design elements to create unity and consistency.</li><li><strong>Proximity:</strong> Grouping related items together to create visual relationships.</li><li><strong>Alignment:</strong> Aligning elements along a common axis to create structure and clarity.</li><li><strong>White Space:</strong> The use of empty space to help balance the layout and improve readability.</li></ul>",
+      "quiz": [
+        {
+          "question": "What is the main difference between symmetrical and asymmetrical balance?",
+          "options": [
+            "Symmetrical uses equal arrangement",
+            "Asymmetrical lacks balance",
+            "Both use equal arrangement",
+            "Asymmetrical emphasizes order"
+          ],
+          "correctAnswer": "Symmetrical uses equal arrangement"
+        },
+        {
+          "question": "Which design principle involves using different colors or sizes to create emphasis?",
+          "options": ["Proximity", "Contrast", "Repetition", "White Space"],
+          "correctAnswer": "Contrast"
+        },
+        {
+          "question": "What does the principle of 'Repetition' aim to achieve in design?",
+          "options": [
+            "Creating visual interest",
+            "Providing structure",
+            "Creating unity and consistency",
+            "Balancing the layout"
+          ],
+          "correctAnswer": "Creating unity and consistency"
+        },
+        {
+          "question": "Which principle is concerned with arranging elements along a common axis?",
+          "options": ["Balance", "Alignment", "Proximity", "Contrast"],
+          "correctAnswer": "Alignment"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Color Theory: The Language of Design",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Color Wheel:</strong> A circular arrangement of colors that shows relationships between them. Primary colors are red, yellow, and blue, and secondary colors are orange, green, and purple.</li><li><strong>Analogous Colors:</strong> Colors that are next to each other on the color wheel and create harmony.</li><li><strong>Complementary Colors:</strong> Colors that are opposite each other on the color wheel, creating strong contrast.</li><li><strong>Color Psychology:</strong> Different colors can evoke different emotions (e.g., red for excitement, blue for calm).</li><li><strong>Color Harmony:</strong> The use of color schemes like analogous, complementary, or triadic to achieve a visually pleasing composition.</li></ul>",
+      "quiz": [
+        {
+          "question": "What are complementary colors?",
+          "options": [
+            "Colors next to each other on the color wheel",
+            "Colors opposite each other on the color wheel",
+            "Primary colors",
+            "Warm colors"
+          ],
+          "correctAnswer": "Colors opposite each other on the color wheel"
+        },
+        {
+          "question": "Which color is often associated with trust and calm?",
+          "options": ["Red", "Blue", "Green", "Yellow"],
+          "correctAnswer": "Blue"
+        },
+        {
+          "question": "What does the term 'Analogous Colors' refer to?",
+          "options": [
+            "Colors opposite each other on the color wheel",
+            "Colors next to each other on the color wheel",
+            "Colors that create high contrast",
+            "Colors that are mixed from primary colors"
+          ],
+          "correctAnswer": "Colors next to each other on the color wheel"
+        },
+        {
+          "question": "Which color scheme involves using three colors that are evenly spaced around the color wheel?",
+          "options": ["Analogous", "Complementary", "Triadic", "Monochromatic"],
+          "correctAnswer": "Triadic"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Typography: The Art of Choosing and Arranging Type",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Serif Fonts:</strong> Fonts with small lines (serifs) at the ends of their strokes. These are typically used for body text. Examples include Times New Roman and Georgia.</li><li><strong>Sans-Serif Fonts:</strong> Fonts without serifs. These are typically used for headings and titles. Examples include Arial and Helvetica.</li><li><strong>Script Fonts:</strong> Fonts that mimic handwriting, often used for invitations or special designs. Examples include Pacifico and Calligraphia.</li><li><strong>Monospace Fonts:</strong> Fonts where each character occupies the same width, often used for coding. Examples include Courier New.</li><li><strong>Hierarchy:</strong> Establishing a visual order in your text, ensuring that the most important information stands out.</li><li><strong>Kerning:</strong> Adjusting the spacing between individual letters to improve readability.</li><li><strong>Tracking:</strong> Adjusting the overall spacing between letters across a word or paragraph.</li><li><strong>Leading:</strong> The vertical spacing between lines of text.</li></ul>",
+      "quiz": [
+        {
+          "question": "Which type of font is typically used for coding?",
+          "options": ["Serif", "Monospace", "Sans-Serif", "Script"],
+          "correctAnswer": "Monospace"
+        },
+        {
+          "question": "What is kerning in typography?",
+          "options": [
+            "Adjusting the spacing between letters",
+            "Adjusting line height",
+            "Choosing the font style",
+            "Setting text alignment"
+          ],
+          "correctAnswer": "Adjusting the spacing between letters"
+        },
+        {
+          "question": "Which font style is often used for headings and titles due to its clean and modern look?",
+          "options": ["Serif", "Monospace", "Sans-Serif", "Script"],
+          "correctAnswer": "Sans-Serif"
+        },
+        {
+          "question": "What does 'leading' refer to in typography?",
+          "options": [
+            "Spacing between letters",
+            "Spacing between lines of text",
+            "Font thickness",
+            "Font slant"
+          ],
+          "correctAnswer": "Spacing between lines of text"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "UI/UX Design: Designing for User Experience",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>UI (User Interface) Design:</strong> Focuses on the look and feel of a product’s interface. This includes elements such as buttons, layouts, and colors.</li><li><strong>UX (User Experience) Design:</strong> Focuses on the overall experience a user has when interacting with a product, ensuring that it is intuitive and easy to use.</li><li><strong>Wireframing:</strong> Creating simple sketches or diagrams of an interface to lay out the basic structure before adding design elements.</li><li><strong>Prototyping:</strong> Creating an interactive version of the design to test how users will interact with it.</li><li><strong>Responsive Design:</strong> Ensuring the design works well on a variety of screen sizes, from mobile phones to desktops.</li><li><strong>Usability Testing:</strong> Testing a product with real users to identify potential issues and areas for improvement.</li></ul>",
+      "quiz": [
+        {
+          "question": "What does UX stand for?",
+          "options": [
+            "User Interface",
+            "User Experience",
+            "User Example",
+            "User Exposure"
+          ],
+          "correctAnswer": "User Experience"
+        },
+        {
+          "question": "Which of these is a tool for creating interactive mockups?",
+          "options": ["Wireframing", "Prototyping", "Tracking", "Kerning"],
+          "correctAnswer": "Prototyping"
+        },
+        {
+          "question": "What is the focus of UI (User Interface) Design?",
+          "options": [
+            "The overall experience of the user",
+            "The look and feel of the product's interface",
+            "Creating interactive prototypes",
+            "Testing usability with real users"
+          ],
+          "correctAnswer": "The look and feel of the product's interface"
+        },
+        {
+          "question": "Which design process involves creating simple sketches or diagrams of an interface?",
+          "options": [
+            "Prototyping",
+            "Usability Testing",
+            "Wireframing",
+            "Responsive Design"
+          ],
+          "correctAnswer": "Wireframing"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Design Trends: Staying Up-to-Date",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Minimalism:</strong> A design style focused on simplicity, using minimal elements to create a clean, modern look.</li><li><strong>Flat Design:</strong> A two-dimensional design style that avoids gradients and shadows. It emphasizes simplicity and clarity.</li><li><strong>Neumorphism:</strong> A design trend that combines flat design with subtle 3D elements, using soft shadows and highlights to create a quasi-3D look.</li><li><strong>Dark Mode:</strong> A design style that uses a dark background with lighter text and elements, popular for reducing eye strain and creating a modern look.</li><li><strong>Gradient Colors:</strong> A smooth transition between colors, used to add depth and interest to designs.</li><li><strong>Geometric Shapes:</strong> Using bold and modern geometric shapes to create structure and balance in a design.</li></ul>",
+      "quiz": [
+        {
+          "question": "Which design trend focuses on simplicity and clarity, avoiding gradients and shadows?",
+          "options": [
+            "Minimalism",
+            "Flat Design",
+            "Neumorphism",
+            "Gradient Colors"
+          ],
+          "correctAnswer": "Flat Design"
+        },
+        {
+          "question": "What is the purpose of using dark mode in design?",
+          "options": [
+            "To create a retro look",
+            "To emphasize bright colors",
+            "To reduce eye strain",
+            "To add 3D elements"
+          ],
+          "correctAnswer": "To reduce eye strain"
+        },
+        {
+          "question": "Which trend combines flat design with subtle 3D elements to create a quasi-3D look?",
+          "options": [
+            "Minimalism",
+            "Neumorphism",
+            "Geometric Shapes",
+            "Gradient Colors"
+          ],
+          "correctAnswer": "Neumorphism"
+        },
+        {
+          "question": "What design trend uses a smooth transition between colors to add depth and interest?",
+          "options": [
+            "Flat Design",
+            "Geometric Shapes",
+            "Gradient Colors",
+            "Dark Mode"
+          ],
+          "correctAnswer": "Gradient Colors"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Types of Graphic Design",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Print Design:</strong> Focuses on designing materials that will be printed, such as brochures, business cards, and packaging.</li><li><strong>Digital Design:</strong> Includes designing for websites, mobile apps, social media, and email newsletters.</li><li><strong>Logo Design:</strong> Creating unique and memorable logos for brands, often a critical part of a brand's identity.</li><li><strong>UI/UX Design:</strong> Designing user interfaces and experiences for digital products like websites and apps.</li><li><strong>Motion Graphics:</strong> Combining animation, video, and sound to create engaging, dynamic content for presentations, websites, and advertisements.</li></ul>",
+      "quiz": [
+        {
+          "question": "Which type of graphic design focuses on creating materials for print, such as brochures and business cards?",
+          "options": [
+            "Motion Graphics",
+            "Print Design",
+            "Digital Design",
+            "Logo Design"
+          ],
+          "correctAnswer": "Print Design"
+        },
+        {
+          "question": "What does UI/UX design focus on?",
+          "options": [
+            "Designing logos",
+            "Designing print materials",
+            "Designing user interfaces and experiences",
+            "Creating 3D animations"
+          ],
+          "correctAnswer": "Designing user interfaces and experiences"
+        },
+        {
+          "question": "Which design type involves creating dynamic content using animation, video, and sound?",
+          "options": [
+            "Print Design",
+            "Motion Graphics",
+            "Logo Design",
+            "Digital Design"
+          ],
+          "correctAnswer": "Motion Graphics"
+        },
+        {
+          "question": "What does Digital Design include?",
+          "options": [
+            "Brochures and business cards",
+            "Websites and mobile apps",
+            "Brand logos",
+            "User interfaces for print"
+          ],
+          "correctAnswer": "Websites and mobile apps"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Motion Graphics: Bringing Designs to Life",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Animation:</strong> The process of creating movement by displaying a series of still images or objects in rapid succession.</li><li><strong>Keyframing:</strong> Setting specific points in an animation where changes in motion or appearance occur.</li><li><strong>Tweening:</strong> Automatically generating intermediate frames between keyframes to create smooth transitions.</li><li><strong>Timing:</strong> Controlling the speed and duration of an animation to create the desired effect.</li><li><strong>Easing:</strong> Adjusting the speed of motion to make it feel more natural.</li><li><strong>Types of Motion Graphics:</strong> Explainer videos, logo animations, social media animations, and interactive animations are popular types of motion graphics used in design.</li></ul>",
+      "quiz": [
+        {
+          "question": "What is the process of setting specific points in an animation where changes occur called?",
+          "options": ["Tweening", "Keyframing", "Timing", "Easing"],
+          "correctAnswer": "Keyframing"
+        },
+        {
+          "question": "Which technique is used to create smooth transitions between keyframes?",
+          "options": ["Easing", "Tweening", "Animation", "Timing"],
+          "correctAnswer": "Tweening"
+        },
+        {
+          "question": "What does easing in animation refer to?",
+          "options": [
+            "Adjusting the speed of motion to make it feel more natural",
+            "Setting specific points where changes occur",
+            "Creating intermediate frames between keyframes",
+            "Controlling the speed and duration of an animation"
+          ],
+          "correctAnswer": "Adjusting the speed of motion to make it feel more natural"
+        },
+        {
+          "question": "Which type of motion graphic involves interactive elements?",
+          "options": [
+            "Explainer videos",
+            "Social media animations",
+            "Interactive animations",
+            "Logo animations"
+          ],
+          "correctAnswer": "Interactive animations"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Color in Design: The Power of Color",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Color Psychology:</strong> Different colors evoke different emotions and have psychological effects. For example, red is often associated with energy and passion, while blue is associated with calm and trust.</li><li><strong>Color Palette:</strong> A set of colors chosen for a design project to maintain visual consistency.</li><li><strong>Contrast:</strong> The difference between light and dark colors to make elements stand out.</li><li><strong>Color Accessibility:</strong> Ensuring your color choices are accessible to users with color blindness by using sufficient contrast and other techniques.</li><li><strong>Color and Branding:</strong> Colors play a crucial role in a brand’s identity and can evoke specific associations in the audience.</li></ul>",
+      "quiz": [
+        {
+          "question": "Which color is often associated with energy and passion?",
+          "options": ["Blue", "Red", "Green", "Yellow"],
+          "correctAnswer": "Red"
+        },
+        {
+          "question": "What does contrast in color refer to?",
+          "options": [
+            "Using bright colors",
+            "Using similar colors",
+            "The difference between light and dark colors",
+            "Choosing primary colors"
+          ],
+          "correctAnswer": "The difference between light and dark colors"
+        },
+        {
+          "question": "How can you ensure your color choices are accessible to users with color blindness?",
+          "options": [
+            "Using bright colors",
+            "Using sufficient contrast and other techniques",
+            "Choosing a limited color palette",
+            "Using only primary colors"
+          ],
+          "correctAnswer": "Using sufficient contrast and other techniques"
+        },
+        {
+          "question": "What role do colors play in branding?",
+          "options": [
+            "They have no effect",
+            "They can evoke specific associations in the audience",
+            "They only affect the look of the design",
+            "They are used to fill empty spaces"
+          ],
+          "correctAnswer": "They can evoke specific associations in the audience"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Print Design vs. Digital Design",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Print Design:</strong> Focuses on designing for physical products like brochures, business cards, posters, and packaging.</li><li><strong>Resolution:</strong> Print designs require higher resolution (300 DPI or more) for clarity, while digital designs typically have lower resolution (72 DPI or 96 DPI) for screens.</li><li><strong>Color Profiles:</strong> Print designs use the CMYK color profile, while digital designs use the RGB color profile.</li><li><strong>File Formats:</strong> Print designs are often saved as PDF or TIFF, while digital designs use formats like JPEG, PNG, and GIF.</li><li><strong>Responsiveness:</strong> Digital designs must adapt to different screen sizes, whereas print designs are fixed in size.</li></ul>",
+      "quiz": [
+        {
+          "question": "What color profile is typically used for print designs?",
+          "options": ["RGB", "CMYK", "Hex", "HSL"],
+          "correctAnswer": "CMYK"
+        },
+        {
+          "question": "Which of these is a common file format for digital designs?",
+          "options": ["PDF", "TIFF", "PNG", "EPS"],
+          "correctAnswer": "PNG"
+        },
+        {
+          "question": "What resolution is typically required for print designs?",
+          "options": ["72 DPI", "96 DPI", "150 DPI", "300 DPI or more"],
+          "correctAnswer": "300 DPI or more"
+        },
+        {
+          "question": "Which color profile is used for digital designs?",
+          "options": ["CMYK", "RGB", "Pantone", "Lab"],
+          "correctAnswer": "RGB"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Design for Accessibility: Making Designs Inclusive",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Color Accessibility:</strong> Ensuring sufficient contrast between text and background colors to help people with color blindness or low vision.</li><li><strong>Web Accessibility Standards:</strong> Following guidelines like WCAG to make websites accessible to people with disabilities, including providing alt text for images and ensuring keyboard navigability.</li><li><strong>Font Size and Readability:</strong> Using larger fonts and adjustable text size to make content readable for people with visual impairments.</li><li><strong>Accessible Forms:</strong> Designing forms that are easy to fill out for users with mobility or cognitive impairments, with clear labels and error messaging.</li><li><strong>Testing for Accessibility:</strong> Using tools and conducting user testing to ensure your design meets accessibility standards.</li></ul>",
+      "quiz": [
+        {
+          "question": "Which of the following ensures color accessibility in design?",
+          "options": [
+            "Using low contrast",
+            "Using random colors",
+            "Using sufficient contrast between text and background",
+            "Using decorative fonts"
+          ],
+          "correctAnswer": "Using sufficient contrast between text and background"
+        },
+        {
+          "question": "What is one key element of web accessibility standards?",
+          "options": [
+            "Using large fonts",
+            "Alt text for images",
+            "Reducing images",
+            "Creating flashy animations"
+          ],
+          "correctAnswer": "Alt text for images"
+        },
+        {
+          "question": "Why is font size important for accessibility?",
+          "options": [
+            "To make the text look attractive",
+            "To ensure readability for people with visual impairments",
+            "To fit more content on the page",
+            "To enhance color contrast"
+          ],
+          "correctAnswer": "To ensure readability for people with visual impairments"
+        },
+        {
+          "question": "What is a good practice for designing accessible forms?",
+          "options": [
+            "Using complex layouts",
+            "Minimizing labels",
+            "Providing clear labels and error messaging",
+            "Avoiding form fields"
+          ],
+          "correctAnswer": "Providing clear labels and error messaging"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Responsive Design: Adapting to Different Screens",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Fluid Grids:</strong> Using percentages instead of fixed pixel values to ensure layouts adjust to different screen sizes.</li><li><strong>Media Queries:</strong> CSS rules that apply styles based on the size of the screen, ensuring that designs look good on mobile, tablet, and desktop devices.</li><li><strong>Flexible Images:</strong> Ensuring that images scale properly across different screen sizes by using max-width and other CSS properties.</li><li><strong>Mobile-First Design:</strong> Designing the mobile version of a site first and progressively enhancing it for larger screens.</li><li><strong>Testing Responsiveness:</strong> Testing your design on various devices and screen sizes to ensure a seamless experience for users.</li></ul>",
+      "quiz": [
+        {
+          "question": "What is the purpose of media queries in responsive design?",
+          "options": [
+            "To adjust image size",
+            "To apply styles based on screen size",
+            "To reduce page load time",
+            "To design for print"
+          ],
+          "correctAnswer": "To apply styles based on screen size"
+        },
+        {
+          "question": "Which approach is recommended for creating a responsive website?",
+          "options": [
+            "Design for desktop first",
+            "Design for mobile first",
+            "Use only fixed sizes",
+            "Avoid images"
+          ],
+          "correctAnswer": "Design for mobile first"
+        },
+        {
+          "question": "What does 'fluid grids' refer to in responsive design?",
+          "options": [
+            "Using fixed pixel values",
+            "Using percentages for layout dimensions",
+            "Applying styles based on screen size",
+            "Creating static images"
+          ],
+          "correctAnswer": "Using percentages for layout dimensions"
+        },
+        {
+          "question": "How should images be handled in responsive design?",
+          "options": [
+            "Using fixed widths",
+            "Scaling with max-width property",
+            "Ignoring images",
+            "Only using high-resolution images"
+          ],
+          "correctAnswer": "Scaling with max-width property"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Tools and Software for Graphic Design",
+      "content": "<style>ul { list-style: disc; padding-left: 20px; } li { margin-bottom: 10px; } h2 { color: #333; } h1 { color: #444; } p { margin: 5px 0; }</style><ul><li><strong>Adobe Photoshop:</strong> A powerful tool for editing photos and creating digital designs with advanced features for professionals.</li><li><strong>Adobe Illustrator:</strong> A vector graphics editor used for creating logos, illustrations, and complex designs.</li><li><strong>Sketch:</strong> A popular tool for UI/UX designers focused on creating user interfaces and interactive prototypes.</li><li><strong>Figma:</strong> A cloud-based design tool used for collaborative UI/UX design, allowing teams to work together in real-time.</li><li><strong>Canva:</strong> An easy-to-use tool for creating simple designs like social media posts, presentations, and infographics, suitable for beginners.</li></ul>",
+      "quiz": [
+        {
+          "question": "Which tool is commonly used for creating vector graphics like logos?",
+          "options": ["Photoshop", "Illustrator", "Figma", "Canva"],
+          "correctAnswer": "Illustrator"
+        },
+        {
+          "question": "Which of these tools is cloud-based and allows real-time collaboration?",
+          "options": ["Sketch", "Figma", "Photoshop", "Canva"],
+          "correctAnswer": "Figma"
+        },
+        {
+          "question": "What is Adobe Photoshop primarily used for?",
+          "options": [
+            "Creating vector graphics",
+            "Designing user interfaces",
+            "Editing photos and creating digital designs",
+            "Collaborative design"
+          ],
+          "correctAnswer": "Editing photos and creating digital designs"
+        },
+        {
+          "question": "Which tool is known for its ease of use and is suitable for beginners creating simple designs?",
+          "options": ["Illustrator", "Figma", "Sketch", "Canva"],
+          "correctAnswer": "Canva"
+        }
+      ]
+    }
+  ]
+}
