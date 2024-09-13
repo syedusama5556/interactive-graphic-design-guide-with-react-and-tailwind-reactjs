@@ -12,42 +12,66 @@ const App: React.FC = () => {
     null
   )
 
-  // Fetch completed lessons from local storage on component mount
+  // Fetch completed lessons and bookmarked lesson from local storage on component mount
   useEffect(() => {
-    const storedData = localStorage.getItem('completedLessons')
+    const storedCompletedLessons = localStorage.getItem('completedLessons')
+    const storedBookmarkedLesson = localStorage.getItem('bookmarkedLesson')
+    const savedLesson = localStorage.getItem('currentLesson')
+
     try {
-      setCompletedLessons(JSON.parse(storedData || '[]'))
+      setCompletedLessons(JSON.parse(storedCompletedLessons || '[]'))
+      setBookmarkedLessonId(
+        storedBookmarkedLesson ? Number(storedBookmarkedLesson) : null
+      )
+      if (savedLesson) {
+        setCurrentLessonId(Number(savedLesson))
+      }
     } catch (error) {
-      console.error('Error parsing completedLessons from local storage:', error)
+      console.error('Error parsing data from local storage:', error)
     }
   }, [])
 
-  // Update local storage when completedLessons changes
+  // Update local storage when completedLessons or bookmarkedLessonId changes
   useEffect(() => {
     localStorage.setItem('completedLessons', JSON.stringify(completedLessons))
-  }, [completedLessons])
-
-  // Fetch saved lesson from local storage on component mount
-  useEffect(() => {
-    const savedLesson = localStorage.getItem('currentLesson')
-    if (savedLesson) {
-      setCurrentLessonId(Number(savedLesson))
+    if (bookmarkedLessonId !== null) {
+      localStorage.setItem('bookmarkedLesson', bookmarkedLessonId.toString())
+    } else {
+      localStorage.removeItem('bookmarkedLesson')
     }
-  }, [])
+  }, [completedLessons, bookmarkedLessonId])
+
+  // Update local storage when currentLessonId changes
+  useEffect(() => {
+    localStorage.setItem('currentLesson', currentLessonId.toString())
+  }, [currentLessonId])
 
   const handleLessonChange = (lessonId: number) => {
     setCurrentLessonId(lessonId)
-    localStorage.setItem('currentLesson', lessonId.toString())
   }
 
   const handleBookmark = () => {
-    setBookmarkedLessonId(currentLessonId)
-    localStorage.setItem('bookmarkedLesson', currentLessonId.toString())
+    if (bookmarkedLessonId === currentLessonId) {
+      // Remove the bookmark if the current lesson is already bookmarked
+      setBookmarkedLessonId(null)
+      localStorage.removeItem('bookmarkedLesson')
+    } else {
+      // Bookmark the current lesson
+      setBookmarkedLessonId(currentLessonId)
+      localStorage.setItem('bookmarkedLesson', currentLessonId.toString())
+    }
   }
 
   // Function to update completedLessons state when a lesson is completed
   const handleLessonCompleted = (completedLessonId: string) => {
     setCompletedLessons([...completedLessons, completedLessonId])
+  }
+
+  // Navigate to the bookmarked lesson if the button is clicked
+  const continueFromBookmark = () => {
+    if (bookmarkedLessonId !== null) {
+      setCurrentLessonId(bookmarkedLessonId)
+    }
   }
 
   const currentLesson = lessonsData.lessons.find(
@@ -60,22 +84,34 @@ const App: React.FC = () => {
         <h1 className="mb-3 text-3xl font-bold">Graphic Design Course</h1>
       </div>
 
-      <AnimatedScrollIndicator currentLesson={currentLessonId} />
+      <AnimatedScrollIndicator />
 
-      <div className="container mx-auto flex">
-        <div className="mr-4 h-full w-1/5 rounded-lg bg-white shadow-md">
-          <CourseTimeline
-            lessons={lessonsData.lessons}
-            onLessonSelect={handleLessonChange}
-            completedLessons={completedLessons}
-            currentLesson={currentLessonId}
-          />
+      <div className="container mx-auto flex flex-col lg:flex-row">
+        <div className="mb-4 flex flex-col lg:mb-0 lg:mr-4 lg:w-1/5">
+          <div className="mb-4 flex items-center">
+            <Bookmark
+              isBookmarked={bookmarkedLessonId === currentLessonId}
+              onToggleBookmark={handleBookmark}
+            />
+            {bookmarkedLessonId !== null && (
+              <button
+                className="ml-4 rounded-lg bg-green-500 px-4 py-2 font-bold text-white transition duration-300 ease-in-out hover:bg-green-600"
+                onClick={continueFromBookmark}
+              >
+                Continue from Bookmark
+              </button>
+            )}
+          </div>
+          <div className="h-full rounded-lg bg-white shadow-md">
+            <CourseTimeline
+              lessons={lessonsData.lessons}
+              onLessonSelect={handleLessonChange}
+              completedLessons={completedLessons}
+              currentLesson={currentLessonId}
+            />
+          </div>
         </div>
-        <div className="w-4/5 p-4">
-          <Bookmark
-            lesson={bookmarkedLessonId}
-            onContinue={() => setCurrentLessonId(bookmarkedLessonId!)}
-          />
+        <div className="flex-1 p-4">
           <div className="rounded-lg bg-white p-4 shadow-md">
             <Lesson
               lesson={currentLesson}
@@ -83,12 +119,6 @@ const App: React.FC = () => {
               onLessonCompleted={handleLessonCompleted} // Pass the handler prop
             />
           </div>
-          <button
-            className="mt-4 rounded-lg bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600"
-            onClick={handleBookmark}
-          >
-            Bookmark this Lesson
-          </button>
         </div>
       </div>
     </div>

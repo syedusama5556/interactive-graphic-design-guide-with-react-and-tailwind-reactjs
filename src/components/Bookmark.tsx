@@ -1,21 +1,24 @@
 import React from 'react'
+import { FaStar, FaRegStar } from 'react-icons/fa'
 
 interface BookmarkProps {
-  lesson: number | null
-  onContinue: () => void
+  isBookmarked: boolean
+  onToggleBookmark: () => void
 }
 
-const Bookmark: React.FC<BookmarkProps> = ({ lesson, onContinue }) => {
-  return lesson !== null ? (
-    <div className="bookmark">
-      <button
-        className="rounded bg-green-500 p-2 text-white"
-        onClick={onContinue}
-      >
-        Continue from Lesson {lesson}
-      </button>
-    </div>
-  ) : null
+const Bookmark: React.FC<BookmarkProps> = ({
+  isBookmarked,
+  onToggleBookmark
+}) => {
+  return (
+    <button
+      className="text-xl"
+      onClick={onToggleBookmark}
+      aria-label={isBookmarked ? 'Remove bookmark' : 'Add bookmark'}
+    >
+      {isBookmarked ? <FaStar color="gold" /> : <FaRegStar />}
+    </button>
+  )
 }
 
 export default Bookmark
