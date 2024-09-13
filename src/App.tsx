@@ -86,6 +86,15 @@ const App: React.FC = () => {
         <h1 className="text-3xl font-extrabold text-gray-900">
           Graphic Design Course
         </h1>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/1ssS2FY9fyA64O3lCvSIxvzrwHpWWr3BZ2CN-JOUIccY/edit?usp=sharing"
+          rel="noreferrer"
+        >
+          <button className="ml-4 rounded-lg bg-blue-500 px-4 py-2 font-bold text-white transition duration-300 ease-in-out hover:bg-blue-600">
+            Open Doc
+          </button>{' '}
+        </a>
       </div>
 
       <AnimatedScrollIndicator />
